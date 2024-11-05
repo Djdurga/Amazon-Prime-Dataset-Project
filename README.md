@@ -11,8 +11,7 @@
 6. [Predictive Modeling](#predictive-modeling)
 7. [Conclusion](#conclusion)
 8. [Future Work](#future-work)
-9. [Appendix](#appendix)
-10. [Lessons Learned](#lessons-learned)
+
 
 ## Introduction
 The aim of this project is to analyze a movie dataset to understand trends and build a predictive model for IMDb ratings. The analysis will help identify key factors that influence movie ratings and how this information can be leveraged for better insights.
@@ -82,11 +81,3 @@ The project successfully explored the dataset and built a baseline predictive mo
 - **Feature Expansion**: Include `genres` and `availableCountries` for richer modeling.
 - **Additional Data**: Integrate movie budget, box office revenue, and critic reviews for better prediction accuracy.
 
-## Appendix
-### Code Snippets
-Important code used in this project:
-```python
-# Example of model training code
-from sklearn.linear_model import LinearRegression
-model = LinearRegression()
-model.fit(X_train, y_train)
